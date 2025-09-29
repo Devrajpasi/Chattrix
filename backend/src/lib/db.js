@@ -6,7 +6,8 @@ dotenv.config()
 
 
 export const connectDB=async()=>{
-    try{
+    try{   
+        
 
         const conn=await mongoose.connect(process.env.MONGO_URL)
 
