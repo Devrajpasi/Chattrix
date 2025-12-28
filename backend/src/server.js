@@ -12,9 +12,6 @@ import { app, server } from './lib/socket.js'
 import { connectDB } from './lib/db.js'
 
 
-
-
-
 const PORT=ENV.PORT || 3000
 
 app.use(express.json({limit :"10mb"}))
