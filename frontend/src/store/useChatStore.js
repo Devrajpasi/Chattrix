@@ -10,7 +10,7 @@ export const useChatStore=create((set,get)=>({
     activeTab:'chats',
     selectedUser:null,
     isUserLoading:false,
-    isMessageLoading:false,
+    isMessageLoading:false, 
     isSoundEnabled:JSON.parse(localStorage.getItem("isSoundEnabled"))===true,
 
 
